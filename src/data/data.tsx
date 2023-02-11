@@ -69,24 +69,23 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Nauman Yawar Butt.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a <strong className="text-stone-100">Master of Cybersecurity</strong> student at the <strong className="text-stone-100">University of Adelaide</strong>, currently looking for 
+        internships in <strong className="text-stone-100">Cybersecurity, Software Engineering and Technology Consultancy</strong> to help make the world a safer, more technologically advanced place.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me <strong className="text-stone-100">meeting new people</strong>,
+        playing <strong className="text-stone-100">badminton</strong>, or exploring the beautiful beaches of{' '}
+        <strong className="text-stone-100">South Australia</strong>.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'assets/Nauman Yawar Butt Resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -104,16 +103,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I have plenty experience in giving and organizing design thinking workshops, coaching university first-years and developing React.JS websites. I am a fun loving, easy going guy who loves writing and telling jokes.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Adelaide, SA', Icon: MapIcon},
+    {label: 'Age', text: '21', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Pakistani - Can work full-time in summers and part-time year-round', Icon: FlagIcon},
+    {label: 'Interests', text: 'Networking, RPG Gaming, Comedy', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Adelaide', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Looking for work', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -129,13 +126,13 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Urdu',
+        level: 8,
       },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
+      // {
+      //   name: 'Spanish',
+      //   level: 3,
+      // },
     ],
   },
   {
@@ -150,8 +147,8 @@ export const skills: SkillGroup[] = [
         level: 7,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Javascript',
+        level: 8,
       },
     ],
   },
@@ -160,16 +157,16 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
         level: 5,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'Python',
+        level: 6,
       },
+      // {
+      //   name: 'Golang',
+      //   level: 4,
+      // },
     ],
   },
   {
@@ -177,16 +174,16 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 9,
+        level: 6,
       },
       {
         name: 'Flutter',
-        level: 4,
+        level: 7,
       },
-      {
-        name: 'Swift',
-        level: 3,
-      },
+      // {
+      //   name: 'Swift',
+      //   level: 3,
+      // },
     ],
   },
 ];
@@ -268,24 +265,24 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'January 2023 - Present',
+    location: 'University of Adelaide',
+    title: 'Master of Cybersecurity',
+    content: <p>Currently Enrolled.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
+    date: 'September 2017 - July 2021',
+    location: 'Lahore University of Management Sciences',
+    title: 'B.S. Computer Science',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'July 2021 - December 2022',
+    location: 'Confiz Limited',
+    title: 'Software Engineer',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -293,17 +290,17 @@ export const experience: TimelineItem[] = [
       </p>
     ),
   },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
+  // {
+  //   date: 'March 2007 - February 2010',
+  //   location: 'Garage Startup Studio',
+  //   title: 'Junior bug fixer',
+  //   content: (
+  //     <p>
+  //       Describe work, special projects, notable achievements, what technologies you have been working with, and
+  //       anything else that would be useful for an employer to know.
+  //     </p>
+  //   ),
+  // },
 ];
 
 /**
@@ -313,19 +310,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'M. Saqib Mehboob',
+      text: 'I was Nauman’s direct supervisor and a Senior Technical Project Manager at Confiz Limited, Lahore, Pakistan. I have 5 years of experience as a Software Engineer and another 9 years work experience as a Technical Project Manager. Nauman is an independent, self-directed person who is able to communicate effectively and meet even the most demanding challenges. During his 6 months’ tenure here, he was a crucial part of our web-app development team and the many sprints we conducted following Agile software development principles. His research and documentation work is clear and concise as well as very insightful for newly on boarded team members.',
+      image: 'assets/saqib_mehboob.jfif',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Dr Suleman Shahid',
+      text: 'Nauman completed his senior year project under my supervision and completed two courses under my tutelage, getting A grades in all these endevours. He was Vice President of INDEX, the innovation and design society, this society is under my patronage. I have observed Nauman grow during his 4 years at LUMS. He has shown strong leadership skills, dedication to his work and solid communication skills among his peers. He will be a good fit for any organisation.',
+      image: 'assets/suleman_shahid.jfif',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Dr Zartash Afzal Uzmi',
+      text: 'Nauman was a Teaching Assistant in a course I taught at LUMS: Principles of Networks. He performed his duties timely, was very helpful and professional with all students. His empathy and kindness made him a favourite among students. Nauman later joined Confiz Limited, one of the largest Software Companies in Pakistan.',
+      image: 'assets/zartash_uzmi.jfif',
     },
   ],
 };
@@ -336,27 +333,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Hi there, feel free to email me anytime!',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'nbutt29@gmail.com',
+      href: 'mailto:nbutt29@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Adelaide, SA, Australia',
+      href: 'https://goo.gl/maps/NfFAJxrjfXwb2sGK6',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@nomipeacemaker',
+      href: 'https://www.instagram.com/nomipeacemaker/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'nomipeacemaker',
+      href: 'https://github.com/nomipeacemaker',
     },
   ],
 };
@@ -365,9 +362,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/nomipeacemaker'},
+  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/nauman-yawar-butt-2a545a146/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/nomipeacemaker/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/NaumanYawar'},
 ];
