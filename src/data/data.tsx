@@ -200,7 +200,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Distributed Hash Tables',
-    description: 'Distributed data encryption and storage in separate file systems.',
+    description: 'Python application for windows that can connect up to 500 computers to a P2P network to find and share files.',
     url: 'https://github.com/NomiPeaceMaker/DHT-NetCen',
     image: porfolioImage2,
   },
@@ -337,9 +337,8 @@ export const volunteer: TimelineItem[] = [
     title: 'Event Head',
     content: (
       <ul>
-          <li>Assisted more than 40 Master’s students with the programming of advanced network systems and analyzing routing and forwarding models</li>
-          <li>Initiated support sessions to teach students socket programming in C++, improving grades of 23 students by ~46%</li>
-          <li>Conducted classes to train students for server-client communication and hosting web-applications</li>
+          <li>Organized the largest design competition in Pakistan comprising of 12 institutions from all over the country</li>
+          <li>Raised sponsorships worth USD 1,000 through proactive engagement with multiple local companies</li>
         </ul>
     ),
   },
