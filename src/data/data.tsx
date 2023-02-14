@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Nauman Yawar Butt Resume Site',
+  description: "Site built with Tim Baker's react resume template",
 };
 
 /**
@@ -74,10 +74,10 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a <strong className="text-stone-100">Master of Cybersecurity</strong> student at the <strong className="text-stone-100">University of Adelaide</strong>, currently looking for 
-        internships in <strong className="text-stone-100">Cybersecurity, Software Engineering and Technology Consultancy</strong> to help make the world a safer, more technologically advanced place.
+        internships in <strong className="text-stone-100">Cybersecurity, Software Engineering and Technology Consultancy</strong> to help make the world safer and more technologically advanced.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me <strong className="text-stone-100">meeting new people</strong>,
+        In my free time, you can catch me <strong className="text-stone-100">meeting new people</strong>,
         playing <strong className="text-stone-100">badminton</strong>, or exploring the beautiful beaches of{' '}
         <strong className="text-stone-100">South Australia</strong>.
       </p>
@@ -224,8 +224,8 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'There She Goes',
-    description: 'High Fidelity Application Design to help women mobility in Pakistan.',
-    url: 'https://www.figma.com/file/pIldR8v5S7xxU5HVOGuRgX/HCI-There-She-Goes',
+    description: 'User Research -> High Fidelity Application Design to help women mobility issues in Pakistan.',
+    url: 'https://docs.google.com/presentation/d/1BRDUTyCNdSU9jXlNoV5xEqkLQIo5VNXb/edit?usp=sharing&ouid=107484080057686343920&rtpof=true&sd=true',
     image: porfolioImage6,
   },
   {
@@ -268,13 +268,13 @@ export const education: TimelineItem[] = [
     date: 'January 2023 - Present',
     location: 'University of Adelaide',
     title: 'Master of Cybersecurity',
-    content: <p>Currently Enrolled.</p>,
+    content: <p>Expected Graduation Date November 2024.</p>,
   },
   {
     date: 'September 2017 - July 2021',
     location: 'Lahore University of Management Sciences',
-    title: 'B.S. Computer Science',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    title: 'B.S. Computer Science (Honours)',
+    content: <p>Graduated with Merit. Vice President of INDEX, the Design and Innovation Society of LUMS.</p>,
   },
 ];
 
@@ -284,23 +284,65 @@ export const experience: TimelineItem[] = [
     location: 'Confiz Limited',
     title: 'Software Engineer',
     content: (
+        <ul>
+          <li>Engineered solutions using ReactJS and NodeJS on a large sized project</li>
+          <li>Mastered SPFx Microsoft Sharepoint for building enterprise reactJS applications</li>
+          <li>Singlehandedly completed project discovery for a client project to ensure a smooth project kick-off</li>
+        </ul>
+
+    ),
+  },
+  {
+    date: 'August 2020 - January 2021',
+    location: 'Lahore University of Management Sciences',
+    title: 'Full-time teaching assistant',
+    content: (
+      <ul>
+          <li>Assisted more than 40 Master’s students with the programming of advanced network systems and analyzing routing and forwarding models</li>
+          <li>Initiated support sessions to teach students socket programming in C++, improving grades of 23 students by ~46%</li>
+          <li>Conducted classes to train students for server-client communication and hosting web-applications</li>
+        </ul>
+    ),
+  },
+];
+
+
+export const volunteer: TimelineItem[] = [
+  {
+    date: 'September 2017 - July 2021',
+    location: 'INDEX - The Design and Innovation Society of LUMS',
+    title: 'Member - Assistant Director Promotions - Director Marketing - Vice President',
+    content: (
+        <ul>
+          <li>Led a team of 100 members to educate 500 university students about Design Thinking</li>
+          <li>Partnered with Confiz Ltd. to conduct “Redesign LUMS”, a first of its kind design competition in LUMS</li>
+          <li>Hosted “Vulcan”, a digital art design competition with a participation of over 300 students from across Pakistan</li>
+        </ul>
+
+    ),
+  },
+  {
+    date: 'Aug 2020 - Nov 2020, Aug 2019 - Nov 2019, Aug 2018 - Nov 2018',
+    location: 'LUMS Orientation Week',
+    title: 'Group Coach',
+    content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        I volunteered to mentor the incoming LUMS batch, which I did by organizing team-building exercises, Sensitivity and Privacy Training sessions and by being the first point of contact for a total of 60 students over three years.
       </p>
     ),
   },
-  // {
-  //   date: 'March 2007 - February 2010',
-  //   location: 'Garage Startup Studio',
-  //   title: 'Junior bug fixer',
-  //   content: (
-  //     <p>
-  //       Describe work, special projects, notable achievements, what technologies you have been working with, and
-  //       anything else that would be useful for an employer to know.
-  //     </p>
-  //   ),
-  // },
+  {
+    date: 'December 2019 - April 2020',
+    location: 'UX Pakistan 2020',
+    title: 'Event Head',
+    content: (
+      <ul>
+          <li>Assisted more than 40 Master’s students with the programming of advanced network systems and analyzing routing and forwarding models</li>
+          <li>Initiated support sessions to teach students socket programming in C++, improving grades of 23 students by ~46%</li>
+          <li>Conducted classes to train students for server-client communication and hosting web-applications</li>
+        </ul>
+    ),
+  },
 ];
 
 /**
@@ -339,6 +381,11 @@ export const contact: ContactSection = {
       type: ContactType.Email,
       text: 'nbutt29@gmail.com',
       href: 'mailto:nbutt29@gmail.com',
+    },
+    {
+      type: ContactType.LinkedIn,
+      text: 'Nauman Yawar Butt on LinkedIn',
+      href: 'https://www.linkedin.com/in/nauman-yawar-butt-2a545a146/',
     },
     {
       type: ContactType.Location,
