@@ -353,7 +353,7 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'M. Saqib Mehboob',
-      text: 'I was Nauman’s direct supervisor and a Senior Technical Project Manager at Confiz Limited, Lahore, Pakistan. I have 5 years of experience as a Software Engineer and another 9 years work experience as a Technical Project Manager. Nauman is an independent, self-directed person who is able to communicate effectively and meet even the most demanding challenges. During his 6 months’ tenure here, he was a crucial part of our web-app development team and the many sprints we conducted following Agile software development principles. His research and documentation work is clear and concise as well as very insightful for newly on boarded team members.',
+      text: 'I was Nauman’s direct supervisor and a Senior Technical Project Manager at Confiz Limited, Lahore, Pakistan. I have 5 years of experience as a Software Engineer and another 9 years work experience as a Technical Project Manager. Nauman is an independent, self-directed person who is able to communicate effectively and meet even the most demanding challenges. During his 1 year and 6 months’ tenure here, he was a crucial part of our web-app development team and the many sprints we conducted following Agile software development principles. His research and documentation work is clear and concise as well as very insightful for newly on boarded team members.',
       image: 'assets/saqib_mehboob.jfif',
     },
     {
